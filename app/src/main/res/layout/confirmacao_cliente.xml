@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirme seus dados"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:textAlignment="center"
+        android:id="@+id/tituloConfirmacaoCliente"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tituloConfirmacaoCliente"
+        android:id="@+id/textViewNome"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewNome"
+        android:id="@+id/textViewEmail"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewEmail"
+        android:id="@+id/textViewCpf"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCpf"
+        android:id="@+id/textViewCel"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background ="@color/colorPrimary"
+        android:layout_below ="@id/textViewCel"
+        android:text="Confirmar"
+        android:textColor="@color/branco"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/btnConfirmar"/>
+
+
+
+</RelativeLayout>
